@@ -39,7 +39,7 @@ export default function Home() {
         <section className="max-w-5xl mx-auto">
   <h2 className="text-3xl font-semibold mb-10">Projects</h2>
 
-  <div className="grid md:grid-cols-2 gap-8">
+  <div className="bg-zinc-900 p-6 rounded-xl">
             <h3 className="text-xl font-semibold"> Donut Shop Web App</h3>
             <p className="opacity-70">
               <p className="text-zinc-400">
@@ -61,10 +61,13 @@ export default function Home() {
 </a>
             
           </div>
+                  <div className="border-t border-zinc-800 my-24"></div>
+
 
           <div className="bg-zinc-900 p-6 rounded-xl">
             <h3 className="text-xl font-semibold">Interactive Portfolio Website</h3>
             <p className="opacity-70">
+              
  <p className="text-zinc-400">
   A full-stack portfolio application built with Next.js featuring an interactive 
   3D Spline integration and an AI-powered assistant connected to the OpenAI API. 
