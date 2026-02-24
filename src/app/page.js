@@ -13,12 +13,12 @@ export default function Home() {
 
         {/* HERO TEXT SECTION */}
         <section className="text-center space-y-4">
-          <h1 className="text-5xl font-bold">Kelvin Ejeobi</h1>
+          <h1 className="text-5xl font-bold">Hello my name is Kelvin Ejeobi</h1>
           <p className="text-xl opacity-80">
-            Web Development Student – Spring 2026
-          </p>
+            Computer Science Student – Spring 2026
+          </p> 
           <p className="max-w-2xl mx-auto opacity-70">
-            Building interactive web applications using React, Next.js, and AI integration.
+            I built an interactive web applications using React, Next.js, and AI integration.
           </p>
         </section>
 
@@ -37,33 +37,43 @@ export default function Home() {
           <h2 className="text-3xl font-semibold">Projects</h2>
 
           <div className="bg-zinc-900 p-6 rounded-xl">
-            <h3 className="text-xl font-semibold">Project 1</h3>
+            <h3 className="text-xl font-semibold"> Donut Shop Web App</h3>
             <p className="opacity-70">
-              Brief description of your project. What it does and what tech you used.
+              Collaborated with two classmates to build a five-page website featuring
+      a dynamic donut shop calculator that calculates pricing based on user selections.
             </p>
             <p className="text-sm opacity-50 mt-2">
-              Tech: React, Node.js, MongoDB
+              Tech: Html, JavaScript
             </p>
+            <a
+  href="https://glazed-and-coded-website.vercel.app"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+>
+  View Live Project
+</a>
+            
           </div>
 
           <div className="bg-zinc-900 p-6 rounded-xl">
             <h3 className="text-xl font-semibold">Project 2</h3>
             <p className="opacity-70">
-              Brief description of another project.
+              My second project i the webpage you are current interactiving with. It was built using react , java script frame work and spline. A portfolio
             </p>
             <p className="text-sm opacity-50 mt-2">
-              Tech: Next.js, Tailwind
+              Tech: Next.js, Tailwind, JavaScript , react
             </p>
           </div>
 
           <a 
-            href="/projects.pdf" 
+            href="/resume.pdf" 
             target="_blank"
             className="inline-block mt-4 px-6 py-3 bg-white text-black rounded-lg font-semibold"
           >
-            Download Full Project Portfolio (PDF)
-          </a>
-        </section>
+            Download Resume (PDF)
+          </a>  
+        </section>   
 
         {/* AI SECTION */}
        <section className="max-w-3xl mx-auto space-y-4">
