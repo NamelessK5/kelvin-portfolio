@@ -13,14 +13,16 @@ export default function Home() {
 
         {/* HERO TEXT SECTION */}
         <section className="text-center space-y-4">
-          <h1 className="text-5xl font-bold">Hello my name is Kelvin Ejeobi</h1>
+          <h1 className="text-5xl font-bold"> Kelvin Ejeobi</h1>
           <p className="text-xl opacity-80">
-            Computer Science Student – Spring 2026
+            Computer Science Student
           </p> 
           <p className="max-w-2xl mx-auto opacity-70">
-            I built an interactive web applications using React, Next.js, and AI integration.
+              I build interactive web applications using React, Next.js, and AI-powered systems.
+
           </p>
         </section>
+        <div className="border-t border-zinc-800 my-24"></div>
 
         {/* ABOUT SECTION */}
         <section className="max-w-3xl mx-auto space-y-4">
@@ -31,16 +33,20 @@ export default function Home() {
             my coursework projects and an AI-powered feature integrated using the OpenAI API.
           </p>
         </section>
+        <div className="border-t border-zinc-800 my-24"></div>
 
         {/* PROJECTS SECTION */}
-        <section className="max-w-4xl mx-auto space-y-8">
-          <h2 className="text-3xl font-semibold">Projects</h2>
+        <section className="max-w-5xl mx-auto">
+  <h2 className="text-3xl font-semibold mb-10">Projects</h2>
 
-          <div className="bg-zinc-900 p-6 rounded-xl">
+  <div className="grid md:grid-cols-2 gap-8">
             <h3 className="text-xl font-semibold"> Donut Shop Web App</h3>
             <p className="opacity-70">
-              Collaborated with two classmates to build a five-page website featuring
-      a dynamic donut shop calculator that calculates pricing based on user selections.
+              <p className="text-zinc-400">
+  Collaborated in a team of three to design and develop a five-page interactive 
+  website featuring a dynamic donut pricing calculator. Implemented client-side 
+  JavaScript logic to compute real-time pricing based on user selections.
+</p>
             </p>
             <p className="text-sm opacity-50 mt-2">
               Tech: Html, JavaScript
@@ -57,12 +63,17 @@ export default function Home() {
           </div>
 
           <div className="bg-zinc-900 p-6 rounded-xl">
-            <h3 className="text-xl font-semibold">Project 2</h3>
+            <h3 className="text-xl font-semibold">Interactive Portfolio Website</h3>
             <p className="opacity-70">
-              My second project i the webpage you are current interactiving with. It was built using react , java script frame work and spline. A portfolio
-            </p>
+ <p className="text-zinc-400">
+  A full-stack portfolio application built with Next.js featuring an interactive 
+  3D Spline integration and an AI-powered assistant connected to the OpenAI API. 
+  Designed with server-side API routes and deployed to production using Vercel.
+</p>        </p>
             <p className="text-sm opacity-50 mt-2">
-              Tech: Next.js, Tailwind, JavaScript , react
+                      Tech: Next.js, React, Tailwind CSS, JavaScript, OpenAI API, Spline
+
+
             </p>
           </div>
 
@@ -74,16 +85,18 @@ export default function Home() {
             Download Resume (PDF)
           </a>  
         </section>   
+        <div className="border-t border-zinc-800 my-24"></div>
 
         {/* AI SECTION */}
        <section className="max-w-3xl mx-auto space-y-4">
-  <h2 className="text-3xl font-semibold">AI Assistant</h2>
-  <p className="opacity-70">
-    Ask questions about my projects and experience using the AI assistant below.
-  </p>
+  <h2 className="text-3xl font-semibold text-center">AI Assistant</h2>
+<p className="text-center text-zinc-500">
+  Ask me about my projects, technologies I use, or how I built this portfolio.
+</p>
 
   <AIChat />
 </section>
+<div className="border-t border-zinc-800 my-24"></div>
 
         {/* CONTACT SECTION */}
         <section className="text-center space-y-4">
